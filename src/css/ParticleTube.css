@@ -1,0 +1,12 @@
+.text-path{
+    position: relative;
+    right:4vw;
+}
+
+.text-path-wrapper {
+  /* make this section twice as tall as the viewport */
+height: 50vh;
+  position: relative;
+  
+}
+

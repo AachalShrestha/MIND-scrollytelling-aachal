@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@font-face {
+  font-family: 'Picnic Regular';
+  src: url('../assets/fonts/PICNIC-REGULAR.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* This helps with performance and FOUT (Flash of Unstyled Text) */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-title{
+  font-size: 150px;
+  margin: 10vh 0 2vh;
+}
+
+.img-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* .floating-img{
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+} */
+
+.sub-title{
+  position: relative;
+  font-size: 6rem;
+  z-index: 10;
+  mix-blend-mode: difference;
+  margin-top: 30vh;
+}
+
+
+

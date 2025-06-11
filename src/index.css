@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: 0;
+}
+.big-title {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, p, .text{
+  font-family: 'Futura Std', sans-serif;
+  font-weight: 400;
+}
+
+.dark-green{
+    color: #5AC899;
+}
